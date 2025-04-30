@@ -1,0 +1,32 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .kirjautumis-formi {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .kirjautumis-formi input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .kirjautumis-formi .btn {
+    background-color: #004080;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .kirjautumis-formi .btn:hover {
+    background-color: #0066cc;
+  }
+  

@@ -1,0 +1,26 @@
+.ajankohtaista {
+    margin: 3rem 0;
+  }
+  
+  .ajankohtaista h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .ajankohtaista-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .ajankohtaista-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .ajankohtaista-grid img:hover {
+    transform: scale(1.05);
+  }
+  

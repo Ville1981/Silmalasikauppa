@@ -1,0 +1,31 @@
+.myymalat-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.myymalat-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.myymala {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  background-color: #f9f9f9;
+}
+
+.kartta {
+  margin-top: 40px;
+}
+
+.kartta-kuva {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}

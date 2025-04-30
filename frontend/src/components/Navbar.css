@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.nav-logout-btn:hover {
+  text-decoration: underline;
+}
+
+.navbar-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e60000;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-varaa, .btn-kirjaudu {
+  text-decoration: none;
+  background-color: #e60000;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* 👤 Kirjaudu -alue ja dropdown */
+.nav-login-area {
+  position: relative;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.nav-login-icon {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* 🔽 Näkyvä dropdown-valikko kirjautumiseen */
+.nav-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 160px;
+}
+
+.nav-dropdown a,
+.nav-dropdown button {
+  display: block;
+  padding: 8px 12px;
+  text-align: left;
+  color: #333;
+  background: none;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-dropdown a:hover,
+.nav-dropdown button:hover {
+  background-color: #f1f1f1;
+}

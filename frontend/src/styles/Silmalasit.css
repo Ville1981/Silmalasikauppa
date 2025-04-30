@@ -1,0 +1,30 @@
+/* src/styles/Silmalasit.css */
+.page-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    line-height: 1.6;
+  }
+  
+  .page-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page-container h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+  }
+  
+  .page-container p {
+    margin-bottom: 1rem;
+  }
+  
+  .page-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 2rem 0;
+    display: block;
+  }
+  

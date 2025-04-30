@@ -1,0 +1,23 @@
+/* src/styles/Toimitusehdot.css */
+.terms-page {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .terms-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .terms-page h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .terms-page p {
+    margin-bottom: 1rem;
+  }
+  

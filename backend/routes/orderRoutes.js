@@ -1,0 +1,11 @@
+import express from 'express';
+import { createOrder, getUserOrders } from '../controllers/orderController.js';
+import { protect } from '../middleware/authMiddleware.js';
+
+const router = express.Router();
+
+// Suojatut reitit
+router.post('/', protect, createOrder);
+router.get('/myorders', protect, getUserOrders);
+
+export default router;

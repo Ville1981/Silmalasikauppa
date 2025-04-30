@@ -1,0 +1,23 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .tilaukset-lista {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .tilauskortti {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+  }
+  
+  .tilauskortti:hover {
+    transform: scale(1.03);
+  }
+  

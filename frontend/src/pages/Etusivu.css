@@ -1,0 +1,77 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: #004080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0066cc;
+  }
+  
+  .kategoriat {
+    margin-bottom: 3rem;
+  }
+  
+  .kategoriat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .kategoria {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+  }
+  
+  .kategoria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .kategoria:hover {
+    transform: scale(1.05);
+  }
+  
+  .ajankohtaista {
+    margin-bottom: 3rem;
+  }
+  
+  .ajankohtaista-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .ajankohtaista-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .uutuudet {
+    margin-top: 3rem;
+  }
+  
